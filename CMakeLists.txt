@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0.0)
 
  
 
-project(Single CXX)
+project(combined CXX)
 
  
 
@@ -22,7 +22,7 @@ include(CTest)
 
 enable_testing()
 
-add_executable(Single first.c )
+add_executable(combined first.c )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 
